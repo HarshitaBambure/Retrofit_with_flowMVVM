@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<stroke
+    android:width="2dp"
+    android:color="#4CAF50"
+    android:dashGap="@dimen/cardview_default_radius"
+    android:dashWidth="10dp"
+    
+    />
+
+<padding
+    android:bottom="2dp"
+    android:left="2dp"
+    android:right="2dp"
+    android:top="2dp"
+
+    />
+
+<corners android:topLeftRadius="10dp"
+    android:topRightRadius="10dp"
+    android:bottomLeftRadius="15dp"
+    android:bottomRightRadius="15dp"
+
+    />
+
+    <solid
+        android:color="#57C0CD"
+
+
+        />
+    <gradient
+        android:startColor="#FFC107"
+        android:centerColor="#E91E63"
+        android:endColor="@color/black"
+        android:angle="45"
+        android:centerX="5"
+        android:centerY="2"
+        android:useLevel="true"
+        android:gradientRadius="15dp"
+        android:type="linear"
+        />
+</shape>
